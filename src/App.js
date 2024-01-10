@@ -8,7 +8,6 @@ function App() {
   const [searchData, setSearchData] = useState("india");
 
   const apiKey = `3d764baf363245d492f3781787ca59b3`;
-  const apiUrl = `https://newsapi.org/v2/everything?q=${searchData}&from=2023-12-09&sortBy=publishedAt&apiKey=${apiKey}`;
 
   
   const [data, setData] = useState([]);
